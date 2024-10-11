@@ -37,3 +37,6 @@
 **Entregables:**
    - Implementación de las clases `Person`, `Person`, `Professor` y `Admin`.
    - Método `getRole` correctamente implementado en cada subclase.
+
+/* se cambio el nombre de .envEXAMPLE
+en config.js el codigo funcionaba desde la linea 29 hasta linea 46 cuando le doy npm start va la web. 

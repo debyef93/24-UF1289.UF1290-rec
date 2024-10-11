@@ -1,5 +1,5 @@
 // app.js
-const express = require("express");
+const express = require('express');
 const path = require("path");
 const connection = require("./config");
 const app = express();
@@ -9,7 +9,7 @@ const PORT = process.env.APP_PORT;
 app.use(express.static(path.join(__dirname, "public")));
 
 // Endpoint para buscar estudiantes
-app.get("/person/:id", (req, res) => {
+app.get('/person/:id', (req, res) => {
   const personId = req.params.id;
   const query = "SELECT * FROM persons WHERE id = ?";
 
